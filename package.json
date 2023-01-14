@@ -11,9 +11,9 @@
   "homepage": "https://github.com/spyna/pretty-jwt/",
   "repository": "Spyna/pretty-jwt",
   "version": "0.0.3",
-  "main": "./lib/index.js",
+  "main": "./lib/jwp.js",
   "bin": {
-    "jwp": "./lib/index.js"
+    "jwp": "./lib/jwp.js"
   },
   "scripts": {
     "dev": "vite",

@@ -59,3 +59,16 @@ will print
 
 <an invalid JWT>
 ```
+
+
+## Development 
+
+### Release and publish
+
+```
+#npm run release
+yarn release
+npm publish --dry-run
+git push --follow-tags origin main
+npm publish 
+```
