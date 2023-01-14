@@ -2,7 +2,7 @@
   "name": "pretty-jwt",
   "description": "Pretty print JWTs in the command line",
   "author": "Spyna (https://github.com/Spyna)",
-  "keyword": [
+  "keywords": [
     "cli",
     "jwt",
     "pretty",
