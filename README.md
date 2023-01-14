@@ -63,14 +63,42 @@ will print
 
 ## Development 
 
+## run locally 
+
+Start `typescript` watching and build compiled js files into the `dist` folder with:
+
+```
+npm run dev
+```
+
+Launch the compiled js with: 
+
+```
+node dist/index.js eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6InNweW5hIiwiaWF0IjoxNzI2MjM5MDIyfQ.2k-IPAVDXSuEVKUKIh_qNB_6SwNnA4muLbTMy5lfNYI
+```
+
+### install locally
+
+Install locally with:
+
+```
+npm run build
+npm install -g .
+```
+
+Test the installation:
+
+```
+jwp eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6InNweW5hIiwiaWF0IjoxNzI2MjM5MDIyfQ.2k-IPAVDXSuEVKUKIh_qNB_6SwNnA4muLbTMy5lfNYI
+```
+
 ### Release and publish
 
 ```
-#npm run build
-yarn build
-#npm run release
-yarn release
+npm run build
+npm run release
 npm publish --dry-run
 git push --follow-tags origin main
 npm publish 
+
 ```
