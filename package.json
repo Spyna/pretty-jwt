@@ -10,7 +10,7 @@
   ],
   "homepage": "https://github.com/spyna/pretty-jwt/",
   "repository": "Spyna/pretty-jwt",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./dist/index.js",
   "bin": {
     "jwp": "./dist/index.js"
