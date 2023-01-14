@@ -66,6 +66,8 @@ will print
 ### Release and publish
 
 ```
+#npm run build
+yarn build
 #npm run release
 yarn release
 npm publish --dry-run

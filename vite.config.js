@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   build: {
     lib: {
+      name:"jwp",
       entry: resolve(__dirname, "src/index.ts"),
       fileName: "jwp",
       formats: ["es"],

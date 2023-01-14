@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { printError } from "./errors";
 import { Printer } from "./printer";
 import { program } from "./program";
