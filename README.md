@@ -71,6 +71,14 @@ Start `typescript` watching and build compiled js files into the `dist` folder w
 npm run dev
 ```
 
+or 
+
+Compile typescript files using: 
+
+```
+npm run build
+```
+
 Launch the compiled js with: 
 
 ```
