@@ -15,7 +15,7 @@ jwp <jwt>
 npx pretty-jwt <jwt>
 ```
 
-The install commands provides the command `jwp` *that is for `jw`<t> `p`<rint>*
+The install commands provides the command `jwp` *that is for `jw`(t) `p`(rint)*
 
 
 ## Examples 
